@@ -1,0 +1,55 @@
+% Dieser Text ist urheberrechtlich geschützt
+% Er stellt einen Auszug eines von mir erstellten Referates dar
+% und darf nicht gewerblich genutzt werden
+% die private bzw. Studiums bezogen Nutzung ist frei
+% Nov. 2004
+% Autor: Sascha Frank 
+% Universität Freiburg 
+% www.informatik.uni-freiburg.de/~frank/
+
+\documentclass{beamer}
+
+\usepackage{beamerthemesplit}
+\usepackage{graphics}
+
+\begin{document}
+
+\title{Beispiel 1}
+\author{Miriam Seel \& Sascha Frank}
+
+\section{Kleiner Test}
+
+\frame{\titlepage}
+
+\frame{Kleiner Test}
+\frame{
+\transduration<1>{0}
+\invisible<2>{\includegraphics[scale=0.5]{bild1}}
+\invisible<1>{Wieviele Kugeln waren es ?}
+}
+\frame{
+\includegraphics[scale=0.5]{bild1}}
+
+\frame{}
+\frame{
+\transduration<1>{0}
+\invisible<2>{\includegraphics[scale=0.5]{bild2}}
+
+\invisible<1>{Wieviele Kugeln waren es diesmal ?}
+}
+\frame{
+\includegraphics[scale=0.5]{bild2}}
+\frame{}
+\frame{
+\transduration<1>{0}
+\invisible<2>{\includegraphics[scale=0.5]{bild3}}
+\\
+\invisible<1>{}
+\invisible<1>{Wieviele Kugeln waren es jetzt ?}
+\invisible<1,2>{Vorteil der B\"undelung}
+}
+\frame{
+\includegraphics[scale=0.5]{bild3}}
+ 
+
+\end{document}
